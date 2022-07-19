@@ -1,0 +1,33 @@
+.user-badge {
+    border-radius: var(--border-radius);
+    padding: .25em .5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: .3px;
+
+    &.gender-male {
+        background: #C8E6C9;
+        color: #256029;
+    }
+
+    &.gender-female {
+        background: #FFCDD2;
+        color: #C63737;
+    }
+
+    &.gender-polygender {
+        background: #d15d93;
+        color: #816320;
+    }
+
+    &.gender-genderqueer {
+        background: #e47419;
+        color: #dbe72b;
+    }
+
+    &.gender-non-binary {
+        background: #248b0a;
+        color: #3ab12b;
+    }
+}
