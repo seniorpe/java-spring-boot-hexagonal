@@ -22,7 +22,7 @@ public class CorsFilterConfig {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         corsConfiguration.setAllowCredentials(true);
         List<String> hosts =
-                Arrays.asList("https://127.0.0.1:4200", "http://localhost:4200");
+                Arrays.asList("https://127.0.0.1:4200", "http://localhost:4201");
         corsConfiguration.setAllowedOrigins(hosts);
         corsConfiguration.setAllowedHeaders(
                 Arrays.asList("Origin", "Access-Control-Allow-Origin", "Content-Type", "Accept", "JWT-Token", "Authorization",
